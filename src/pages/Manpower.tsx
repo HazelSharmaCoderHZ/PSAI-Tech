@@ -64,15 +64,15 @@ export default function Manpower() {
             className="text-center mb-16"
           >
             <span className="inline-block px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
-              IT & Government Manpower Services
+              IT & Government Services
             </span>
 
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Professional <span className="gradient-text">Manpower</span> Deployment
+              Professional <span className="gradient-text">Services</span> Deployment
             </h1>
 
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              PS ASSOCIATES delivers trained and reliable manpower to support government,
+              PS Associates delivers trained and reliable services to support government,
               semi-government, and enterprise IT projects, ensuring operational
               continuity and service excellence across India.
             </p>
@@ -112,17 +112,17 @@ export default function Manpower() {
             className="glow-card p-8 text-center"
           >
             <h2 className="text-2xl font-bold mb-4">
-              Need Manpower for IT or Government Projects?
+              Need Services for IT or Government Projects?
             </h2>
 
             <p className="text-muted-foreground mb-6">
-              Engage PS ASSOCIATES for structured, compliant, and scalable manpower deployment
+              Engage PS Associates for structured, compliant, and scalable services deployment
               aligned with project requirements and service-level commitments.
             </p>
 
             <Link to="/contact">
               <button className="glow-button text-primary-foreground">
-                Request Manpower
+                Request Services
                 <ArrowRight className="w-4 h-4 inline ml-2" />
               </button>
             </Link>
