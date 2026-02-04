@@ -3,7 +3,6 @@ import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { cn } from '@/lib/utils';
-
 const navLinks = [
   { name: 'Home', href: '/' },
   { name: 'Products', href: '/products' },
@@ -11,6 +10,7 @@ const navLinks = [
   { name: 'Projects', href: '/projects' },
   { name: 'About', href: '/about' },
   { name: 'Contact', href: '/contact' },
+  { name: 'Partners', href: '/partners' },
 ];
 
 export default function Navbar() {
