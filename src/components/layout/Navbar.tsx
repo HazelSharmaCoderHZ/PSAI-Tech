@@ -7,10 +7,11 @@ const navLinks = [
   { name: 'Home', href: '/' },
   { name: 'Products', href: '/products' },
   { name: 'Services', href: '/manpower' },
-  { name: 'Projects', href: '/projects' },
   { name: 'About', href: '/about' },
   { name: 'Contact', href: '/contact' },
   { name: 'Partners', href: '/partners' },
+  { name: 'Industries', href: '/industries' },
+  { name: 'Gallery', href: '/gallery' },
 ];
 
 export default function Navbar() {

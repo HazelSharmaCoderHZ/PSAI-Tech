@@ -6,11 +6,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Products from "./pages/Products";
 import Manpower from "./pages/Manpower";
-import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import Partners from './pages/Partners';
+import Industries from './pages/Industries';
+import Gallery from './pages/Gallery';
 
 const queryClient = new QueryClient();
 
@@ -24,10 +25,11 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/products" element={<Products />} />
           <Route path="/manpower" element={<Manpower />} />
-          <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/partners" element={<Partners />} />
+          <Route path="/industries" element={<Industries />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

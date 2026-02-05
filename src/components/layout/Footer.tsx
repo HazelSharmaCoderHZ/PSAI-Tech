@@ -17,8 +17,9 @@ const footerLinks = {
   company: [
     { name: 'About Us', href: '/about' },
     { name: 'Our Partners', href: '/partners' },
-    { name: 'Certifications', href: '/about#certifications' },
+    { name: 'Industries', href: '/industries' },
     { name: 'Contact', href: '/contact' },
+    { name: 'Gallery', href: '/gallery' },
   ],
 };
 
@@ -141,9 +142,9 @@ export default function Footer() {
           {/* Social Links */}
           <div className="flex items-center gap-3">
             {[
-              { icon: Linkedin, href: 'https://www.linkedin.com/company/xtranetindia/' },
-              { icon: Twitter, href: 'https://x.com/xtranetindia' },
-              { icon: Facebook, href: 'https://www.facebook.com/xtranetindia' },
+              { icon: Linkedin, href: 'https://www.linkedin.com/company/psassociates' },
+              { icon: Twitter, href: 'https://x.com/psassociatesbpl' },
+              { icon: Facebook, href: 'https://www.facebook.com/PSAssociatesBPL' },
             ].map((social, index) => (
               <motion.a
                 key={index}
