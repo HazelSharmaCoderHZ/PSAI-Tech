@@ -5,13 +5,13 @@ import { Menu, X, ChevronDown } from 'lucide-react';
 import { cn } from '@/lib/utils';
 const navLinks = [
   { name: 'Home', href: '/' },
-  { name: 'Products', href: '/products' },
-  { name: 'Services', href: '/manpower' },
   { name: 'About', href: '/about' },
-  { name: 'Contact', href: '/contact' },
-  { name: 'Partners', href: '/partners' },
+  { name: 'Services', href: '/manpower' },
+  { name: 'Products', href: '/products' },
   { name: 'Industries', href: '/industries' },
+  { name: 'Partners', href: '/partners' },
   { name: 'Gallery', href: '/gallery' },
+  { name: 'Contact', href: '/contact' },
 ];
 
 export default function Navbar() {
