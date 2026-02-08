@@ -3,13 +3,14 @@ import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { cn } from '@/lib/utils';
-
 const navLinks = [
   { name: 'Home', href: '/' },
-  { name: 'Products', href: '/products' },
-  { name: 'Manpower', href: '/manpower' },
-  { name: 'Projects', href: '/projects' },
   { name: 'About', href: '/about' },
+  { name: 'Services', href: '/manpower' },
+  { name: 'Products', href: '/products' },
+  { name: 'Industries', href: '/industries' },
+  { name: 'Partners', href: '/partners' },
+  { name: 'Gallery', href: '/gallery' },
   { name: 'Contact', href: '/contact' },
 ];
 

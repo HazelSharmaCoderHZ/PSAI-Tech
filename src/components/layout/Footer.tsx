@@ -11,15 +11,15 @@ const footerLinks = {
   ],
   services: [
     { name: 'IT Hardware Supply', href: '/products' },
-    { name: 'Manpower Services', href: '/manpower' },
+    { name: 'All Services', href: '/manpower' },
     { name: 'Government Projects', href: '/projects' },
-    { name: 'AMC Services', href: '/services' },
   ],
   company: [
     { name: 'About Us', href: '/about' },
-    { name: 'Our Team', href: '/about#team' },
-    { name: 'Certifications', href: '/about#certifications' },
+    { name: 'Our Partners', href: '/partners' },
+    { name: 'Industries', href: '/industries' },
     { name: 'Contact', href: '/contact' },
+    { name: 'Gallery', href: '/gallery' },
   ],
 };
 
@@ -43,12 +43,11 @@ export default function Footer() {
               </div>
               <div>
                 <span className="font-bold text-xl text-foreground">PS Associates</span>
-                <p className="text-xs text-muted-foreground">Madhya Pradesh's Premier IT Partner</p>
               </div>
             </Link>
             <p className="text-muted-foreground mb-6 max-w-md">
-              Leading provider of IT hardware solutions and skilled manpower services to government organizations across Madhya Pradesh since 2005.
-            </p>
+              PS Associates delivers timely, high-quality technology solutions tailored to diverse industry domains, aligned with globally recognized standards. For over 28 years, we have been providing a comprehensive range of IT and IT-enabled services, including ERP solutions, application development, enterprise consulting, IT infrastructure services, and data center solutions.
+               </p>
             
             {/* Contact Info */}
             <div className="space-y-3">
@@ -74,7 +73,7 @@ export default function Footer() {
                 <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center flex-shrink-0">
                   <MapPin className="w-4 h-4" />
                 </div>
-                <span className="text-sm">MP Nagar, Zone 1<br />Bhopal, Madhya Pradesh 462011</span>
+                <span className="text-sm">1A, Ist Floor, Metro Plaza, E-5,<br /> Arera Colony, Bhopal, M.P., India,<br /> PIN CODE 462016</span>
               </div>
             </div>
           </div>
@@ -143,9 +142,9 @@ export default function Footer() {
           {/* Social Links */}
           <div className="flex items-center gap-3">
             {[
-              { icon: Linkedin, href: 'https://www.linkedin.com/company/xtranetindia/' },
-              { icon: Twitter, href: 'https://x.com/xtranetindia' },
-              { icon: Facebook, href: 'https://www.facebook.com/xtranetindia' },
+              { icon: Linkedin, href: 'https://www.linkedin.com/company/psassociates' },
+              { icon: Twitter, href: 'https://x.com/psassociatesbpl' },
+              { icon: Facebook, href: 'https://www.facebook.com/PSAssociatesBPL' },
             ].map((social, index) => (
               <motion.a
                 key={index}
