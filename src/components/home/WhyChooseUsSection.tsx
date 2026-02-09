@@ -6,7 +6,7 @@ import { Award, Clock, ShieldCheck, ThumbsUp, TrendingUp, Headphones } from 'luc
 const features = [
   {
     icon: Award,
-    title: '5+ Years Experience',
+    title: '25+ Years Experience',
     description: 'Deep expertise in serving  IT needs since 2015.',
   },
   {
