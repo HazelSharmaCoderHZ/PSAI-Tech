@@ -16,7 +16,6 @@ const footerLinks = {
     { name: 'Our Products', href: '/products' },
     { name: 'Industries', href: '/industries' },
     { name: 'All Services', href: '/services' },
-    { name: 'IT Solutions', href: '/#solutions' },
   ],
   company: [
     { name: 'About Us', href: '/about' },

@@ -31,6 +31,8 @@ import brother from '@/assets/images/partners/brother.png';
 import acer from '@/assets/images/partners/acer.png';
 import globus from '@/assets/images/partners/globus.png';
 import hp from '@/assets/images/partners/hp.png';
+import dell from '@/assets/images/partners/dell.png';
+import canon from '@/assets/images/partners/canon.png';
 
 /* ========== CLIENT LOGOS ========== */
 
@@ -64,6 +66,16 @@ const partners = [
     name: 'Intel',
     logo: intel,
     desc: 'Technology Provider',
+  },
+  {
+    name: 'Dell',
+    logo: dell,
+    desc: 'Enterprise IT & Infrastructure Solutions Partner',
+  },
+  {
+    name: 'Canon',
+    logo: canon,
+    desc: 'IT & Solutions Partner',
   },
   {
     name: 'Microsoft',
