@@ -120,7 +120,7 @@ const leaders = [
   },
   {
     name: 'Niharika Uzzarke',
-    role: 'HR',
+    role: 'HR Executive',
     src: leaderImage7,
   },
   {
