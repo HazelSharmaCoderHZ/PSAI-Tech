@@ -6,7 +6,7 @@ import AnimatedNumber from './AnimatedNumber';
 
 const stats = [
   { value: 25, suffix: '+', label: 'Years Experience', icon: Shield },
-  { value: 50, suffix: '+', label: 'Projects Delivered', icon: Monitor },
+  { value: 200, suffix: '+', label: 'Projects Delivered', icon: Monitor },
   { value: 1000, suffix: '+', label: 'Manpower Deployed', icon: Users },
 ];
 
