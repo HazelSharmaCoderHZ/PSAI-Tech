@@ -22,8 +22,6 @@ const footerLinks = {
     { name: 'Our Partners', href: '/partners' },
     { name: 'Contact', href: '/contact' },
     { name: 'Gallery', href: '/gallery' },
-    { name: 'Certificates', href: '/about#certificates' },
-    { name: 'Leadership', href: '/about#leaders' },
   ],
 };
 
