@@ -14,6 +14,8 @@ import certImage2 from '@/assets/images/certificates/image copy.png';
 import certImage3 from '@/assets/images/certificates/image copy 2.png';
 import certImage4 from '@/assets/images/certificates/image copy 3.png';
 
+import cert1 from '@/assets/images/certificates/cert1.png';
+import certificatenew from '@/assets/images/certificates/certificatenew.png';
 const timeline = [
   {
     step: '1',
@@ -80,6 +82,14 @@ const certificates: Certificate[] = [
     name: 'Certificate 4',
     src: certImage4,
   },
+  {
+    name: 'Certificate 5',
+    src: certificatenew,
+  },
+  {
+    name: 'Certificate 6',
+    src: cert1,
+  },
 ];
 
 const leaders = [
@@ -115,7 +125,7 @@ const leaders = [
   },
   {
     name: 'Niharika Uzzarke',
-    role: 'HR',
+    role: 'HR Executive',
     src: leaderImage7,
   },
   {

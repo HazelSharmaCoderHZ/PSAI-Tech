@@ -6,8 +6,8 @@ import AnimatedNumber from './AnimatedNumber';
 
 const stats = [
   { value: 25, suffix: '+', label: 'Years Experience', icon: Shield },
-  { value: 50, suffix: '+', label: 'Projects Delivered', icon: Monitor },
-  { value: 1000, suffix: '+', label: 'Manpower Deployed', icon: Users },
+  { value: 500, suffix: '+', label: 'Projects Delivered', icon: Monitor },
+  { value: 2000, suffix: '+', label: 'Manpower Deployed', icon: Users },
 ];
 
 export default function HeroSection() {

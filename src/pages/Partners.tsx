@@ -30,7 +30,9 @@ import people from '@/assets/images/partners/people.png';
 import brother from '@/assets/images/partners/brother.png';
 import acer from '@/assets/images/partners/acer.png';
 import globus from '@/assets/images/partners/globus.png';
-
+import hp from '@/assets/images/partners/hp.png';
+import dell from '@/assets/images/partners/dell.png';
+import canon from '@/assets/images/partners/canon.png';
 
 /* ========== CLIENT LOGOS ========== */
 
@@ -61,19 +63,55 @@ import c23 from '@/assets/images/clients/c23.png';
 
 const partners = [
   {
-    name: 'Array Networks',
-    logo: array,
-    desc: 'Application Delivery & Security Partner',
+    name: 'Intel',
+    logo: intel,
+    desc: 'Technology Provider',
+  },
+  {
+    name: 'Dell',
+    logo: dell,
+    desc: 'Enterprise IT & Infrastructure Solutions Partner',
+  },
+  {
+    name: 'Canon',
+    logo: canon,
+    desc: 'IT & Solutions Partner',
+  },
+  {
+    name: 'Microsoft',
+    logo: microsoft,
+    desc: 'Cloud & Software Partner',
   },
   {
     name: 'Amazon Web Services',
     logo: aws,
     desc: 'Cloud Services Partner',
   },
-  {
+   {
     name: 'Cisco',
     logo: cisco,
     desc: 'Networking Solutions Partner',
+  },
+  {
+    name: 'IBM',
+    logo: ibm,
+    desc: 'IT & Consulting Partner',
+  },
+  
+  {
+    name: 'HP',
+    logo: hp,
+    desc: 'Technology Partner',
+  },
+  {
+    name: 'Array Networks',
+    logo: array,
+    desc: 'Application Delivery & Security Partner',
+  },
+ {
+    name: 'Samsung',
+    logo: samsung,
+    desc: 'Technology Partner',
   },
   {
     name: 'CloudBolt',
@@ -100,31 +138,19 @@ const partners = [
     logo: hpe,
     desc: 'Enterprise Solutions Partner',
   },
-  {
-    name: 'IBM',
-    logo: ibm,
-    desc: 'IT & Consulting Partner',
-  },
+  
   {
     name: 'IFS',
     logo: ifs,
     desc: 'ERP Solutions Partner',
   },
-  {
-    name: 'Intel',
-    logo: intel,
-    desc: 'Technology Provider',
-  },
+  
   {
     name: 'Iron Mountain',
     logo: iron,
     desc: 'Data Management Partner',
   },
-  {
-    name: 'Microsoft',
-    logo: microsoft,
-    desc: 'Cloud & Software Partner',
-  },
+  
   {
     name: 'Nutanix',
     logo: nutanix,
@@ -150,11 +176,7 @@ const partners = [
     logo: redhat,
     desc: 'Open Source Solutions Partner',
   },
-  {
-    name: 'Samsung',
-    logo: samsung,
-    desc: 'Technology Partner',
-  },
+  
   {
     name: 'SAP',
     logo: sap,
