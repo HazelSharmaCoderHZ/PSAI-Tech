@@ -10,7 +10,7 @@ import {
   ArrowRight,
 } from 'lucide-react';
 
-import logo from '@/assets/logo.jpeg';
+import logo from '@/assets/logo.png';
 const footerLinks = {
   services: [
     { name: 'Our Products', href: '/products' },
